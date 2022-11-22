@@ -1,0 +1,745 @@
+        body {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        height: 100%;
+    }
+    
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+/*HAMBURGUESA*/
+.hamburger {
+    
+   
+    
+}
+
+.hamburguesa {
+    display: none;
+    width: 30px;
+    height: auto;
+     margin-right: 5%;
+    float: right;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+   
+    background-color: #fff !important;
+   
+    }
+
+.contenedor-menu {
+    overflow: hidden;
+    height: 0px;
+    background-color: #00B2D6;
+    width: 100%;
+    text-align: center;
+    z-index: 400;
+    position: fixed;
+    -webkit-transition: all 300ms ease-in-out;
+-moz-transition: all 300ms ease-in-out;
+-ms-transition: all 300ms ease-in-out;
+-o-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
+
+.menu-hamburguesa {
+    position: absolute;
+    top: 50%;
+    margin-left: -150px;
+    width: 300px;
+    height: 150px;
+    margin-top: -75px;
+    left: 50%;
+}
+
+.contenedor-menu ul li a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.contenedor-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+/*FIN HAMBURGUESA*/
+/*    MENU*/
+    nav {
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        background-color: #00B2D6;
+        z-index: 800;
+    }
+    
+    nav img {
+        margin-left: 3%;
+        margin-top: 15px;
+    }
+    
+    .menu {
+        width: 600px;
+        float: right;
+        margin-right: 1%;
+    }
+    
+    .menu ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    
+    .menu ul li a {
+        text-decoration: none;
+        float: left;
+        color: #fff;
+        margin-right: 20px;
+        margin-left: 20px;
+        display: block;
+        line-height: 60px;
+        height: 60px;
+        text-align: center;
+    }
+/*    FIN MENU*/
+/*CABECERA*/
+    .contenedor-cabecera {
+        width: 100%;
+        height: 650px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .video {
+        position: absolute;
+        bottom: 0px;
+        z-index: -1000;
+    }
+    
+    .textos-cabecera {
+        position: absolute;
+        bottom: 230px;
+        left: 15%;
+        z-index: 100;
+        width: 600px;
+        height: 200px;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .col-izqda h1 {
+        font-size: 40px;
+        color: #141414;
+        margin-top: 2px;
+    }
+    
+    .col-izqda {
+        text-align: center;
+        float: left;
+        width: 393px;
+    }
+    
+    .contenedor-video {
+/*
+        background-color: rgba(255, 255, 255, 0.15);
+        width: 100%;
+        height: 650px;
+*/
+        min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: -1000;
+    top: 0px;
+    left: 0px;
+    }
+    
+    .margen-img-links {
+        margin-right: 7px;
+    }
+    
+    .descargala-aqui {
+        float: right;
+        margin-top: 110px;
+    }
+
+.links {
+  width: 300px;
+    height: auto;
+    
+    
+}
+
+.link-item1 {
+    width: 192px;
+    height: 58px;
+ float: left;
+    width: 30%;
+}
+
+.link-item2 {
+     width: 192px;
+    height: 58px;
+ float: right;
+    width: 30%;
+}
+
+.logo-cabecera {
+ width: 90%;
+    margin: auto;
+}
+/*CABECERA RESPONSIVE */
+.textos-cabecera-responsive {
+               display: none; 
+    width: 100%;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    height: auto;
+    margin-top: 100px;
+            }
+
+.textos-cabecera-responsive h1 {
+               font-size: 30px;
+            }
+
+.logo-responsive {
+    text-align: center;
+}
+
+.link-responsive {
+    text-align: center;
+}
+
+
+            
+
+    
+
+    /*BLOQUE 1*/
+    
+    .bloque1 {
+        width: 100%;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b2d6+0,1d71b8+100 */
+        background: rgb(0, 178, 214);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(0, 178, 214, 1) 0%, rgba(29, 113, 184, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(0, 178, 214, 1) 0%, rgba(29, 113, 184, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(0, 178, 214, 1) 0%, rgba(29, 113, 184, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b2d6', endColorstr='#1d71b8', GradientType=0);
+        /* IE6-9 */
+    }
+    
+    .contenedor-bloque1 {
+        max-width: 1024px;
+        margin: auto;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+    
+    .img-movil1 {
+        float: left;
+        margin-right: 10%;
+        width: 30%;
+    }
+    
+    .texto-bloque1 {
+        color: #fff;
+        width: 58%;
+        text-align: left;
+        float: left;
+        padding-top: 7%;
+        padding-right: 2%;
+    }
+    
+    .texto-bloque1 h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    .texto-bloque1 h3 {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    
+    .texto-bloque1 p {
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
+    .texto-bloque1 a {
+        display: block;
+        background-color: #fff;
+        color: #1D71B8;
+        font-weight: 300;
+        text-align: center;
+        width: 200px;
+        height: 46px;
+        line-height: 46px;
+        text-decoration: none;
+        margin: auto;
+        font-size: 17px;
+        margin-top: 7%;
+    }
+    /*BLOQUE 2*/
+    
+    .bloque2 {
+        max-width: 1170px;
+        margin: auto;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    
+    .item {
+        float: left;
+        width: 20.25%;
+        text-align: center;
+    }
+    
+    .margen-drcho {
+        margin-right: 5%;
+    }
+    
+    .item h2 {
+        font-weight: 300;
+        font-size: 19px;
+        padding-bottom: 5%;
+        color: #1D71B8;
+    }
+    
+    .item p {
+        font-size: 17px;
+        text-align: left;
+        font-weight: 300;
+    }
+    /*BLOQUE 3*/
+    
+    .bloque3 {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d71b8+1,00b2d6+100 */
+        background: rgb(29, 113, 184);
+        /* Old browsers */
+        background: -moz-linear-gradient(left, rgba(29, 113, 184, 1) 1%, rgba(0, 178, 214, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(29, 113, 184, 1) 1%, rgba(0, 178, 214, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(29, 113, 184, 1) 1%, rgba(0, 178, 214, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d71b8', endColorstr='#00b2d6', GradientType=1);
+        /* IE6-9 */
+        width: 100%;
+        height: auto;
+    }
+    
+    .contenedor-bloque3 {
+        max-width: 1170px;
+        margin: auto;
+    }
+    
+    .textos-bloque3 {
+        padding-top: 3%;
+        padding-bottom: 5%;
+        color: #fff;
+        float: left;
+        width: 56%;
+        padding-right: 5%;
+        padding-left: 2%;
+    }
+    
+    .textos-bloque3 h3 {
+        font-size: 25px;
+    }
+    
+    .textos-bloque3 p {
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
+    .margen-sin-cargos {
+        margin-top: 10%;
+    }
+    
+    .img-bloque3 {
+        float: right;
+        margin-top: 4%;
+        width: 35%;
+        margin-right: 2%;
+    }
+    
+    .textos-bloque3 h2 {
+        padding: 10px 20px;
+        background-color: #fff;
+        color: #1D71B8;
+        width: 350px;
+        box-sizing: border-box;
+    }
+    /*BLOQUE 4*/
+    
+    .bloque4 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .contenedor-bloque4 {
+        max-width: 1170px;
+        margin: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        2%;
+    }
+    
+    .item-bloque4 {
+        float: left;
+        width: 47.5%;
+        text-align: center;
+    }
+    
+    .item-bloque4 p {
+        font-size: 17px;
+        text-align: left;
+        font-weight: 300;
+    }
+    
+    .item-bloque4 h2 {
+        font-weight: 300;
+        font-size: 22px;
+        padding-bottom: 5%;
+        color: #00B2D6;
+    }
+    /*BLOQUE 5*/
+    
+    .cabecera-opiniones {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b2d6+50,e5e5e5+100&0+0,1+50,0+100 */
+        background: -moz-linear-gradient(left, rgba(0, 178, 214, 0) 0%, rgba(0, 178, 214, 1) 50%, rgba(229, 229, 229, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(0, 178, 214, 0) 0%, rgba(0, 178, 214, 1) 50%, rgba(229, 229, 229, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0, 178, 214, 0) 0%, rgba(0, 178, 214, 1) 50%, rgba(229, 229, 229, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000b2d6', endColorstr='#00e5e5e5', GradientType=1);
+        /* IE6-9 */
+    }
+    
+    .contenedor-cabecera-opiniones {
+        width: 400px;
+        margin: auto;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 200;
+        color: #fff;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+    
+    .contenedor-cabecera-opiniones h2 {
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+    }
+    
+    .contenedor-cabecera-opiniones img {
+        margin-top: -8px;
+    }
+    /*BLOQUE 6*/
+    
+    .bloque6 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .contenedor-bloque6 {
+        max-width: 1170px;
+        margin: auto;
+        padding-left: 2%;
+        padding-right;
+        2%;
+    }
+    /*BLOQUE 7*/
+    
+    .bloque7 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d71b8+0,00b2d6+100 */
+        background: rgb(29, 113, 184);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(29, 113, 184, 1) 0%, rgba(0, 178, 214, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(29, 113, 184, 1) 0%, rgba(0, 178, 214, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(29, 113, 184, 1) 0%, rgba(0, 178, 214, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d71b8', endColorstr='#00b2d6', GradientType=0);
+        /* IE6-9 */
+    }
+    
+    .contenedor-bloque7 {
+        max-width: 1170px;
+        margin: auto;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    
+    .premios {
+        float: left;
+        width: 30%;
+    }
+    
+    .img-premio {
+        float: left;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    
+    .texto-premios {
+        float: right;
+        margin-top: 0px;
+    }
+    
+    .texto-premios h2 {
+        font-weight: 700;
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    .texto-premios h3 {
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: -9px;
+        color: #fff;
+    }
+    
+    .medios {
+        width: 60%;
+        float: right;
+        text-align: center;
+    }
+    
+    .margen-inf {
+        margin-bottom: 50px;
+    }
+    
+    .texto-medio p {
+        color: #fff;
+        font-size: 19px;
+        font-weight: 300;
+        font-style: italic;
+    }
+    /*BLOQUE 8*/
+    
+    .bloque8 {
+        padding-top: 10%;
+    }
+    
+    .contenedor-bloque8 {
+        max-width: 1170px;
+        margin: auto;
+    }
+    
+    .contenedor-textos {
+        width: 420px;
+        margin-left: 60%;
+        text-align: center;
+    }
+    
+    .flota {
+        float: left;
+    }
+    
+    .margen-sup {
+        margin-top: 20px;
+    }
+    
+    .movil2 {
+        margin-top: -50%;
+    }
+    /*FOOTER*/
+    
+    .pie {
+        background-color: #00B2D6;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+    
+    .social {
+        width: 150px;
+        margin: auto;
+    }
+    
+    .social img {
+        float: left;
+    }
+    
+    .margen-social {
+        margin-right: 12%;
+    }
+    /*MEDIA QUERIES*/
+    
+    @media screen and (max-width: 1060px) {
+        .img-premio {
+            float: none;
+            width: 30%;
+            margin: auto;
+        }
+        .movil2 {
+            display: none;
+        }
+        .contenedor-textos {
+            margin: auto;
+        }
+        .pie {
+            margin-top: 5%;
+        }
+    @media screen and (max-width: 768px) {
+            .video {
+                display: none;
+            }
+            .contenedor-cabecera {
+                height: 482px;
+                background-image: url(../img/cabecera-ipad2.jpg);
+                background-size: cover;
+            }
+        }
+        .textos-cabecera {
+            bottom: 100px;
+            left: 50%;
+            margin-left: -300px;
+        }
+        .texto-bloque1 {
+       
+        padding-top: 2%;
+        }
+            .texto-bloque1 h2 {
+        font-size: 28px;
+        
+    }
+       .item {
+        
+        width: 45%;
+        
+    } 
+         .img-bloque3 {
+        display: none;
+    }
+        
+        .textos-bloque3 {
+        
+        float: none;
+        width: 80%;
+       margin: auto;
+    }
+        
+        .menu {
+         display: none;   
+        }
+        
+        .hamburguesa {
+            display: block;
+             margin-right: 7%;
+        }
+        .bloque8 {
+        padding-top: 5%;
+            padding-bottom: 5%;
+    }
+    }
+
+
+
+        @media screen and (max-width: 480px) {
+
+            
+        .textos-cabecera {
+        
+       
+      display: none;
+       
+    }
+            
+            .textos-cabecera-responsive {
+               display: block; 
+            }
+            
+             
+            
+            
+           
+            .hamburguesa {
+    
+     margin-right: 10%;
+    
+}
+
+            .img-movil1 {
+        display: none;
+    }
+            .texto-bloque1 {
+        
+        width: 95%;
+        text-align: center;
+        float: none;
+        padding-top: 5%;
+        padding-right: 2%;
+                padding-left: 2%;
+                padding-bottom: 5%;
+    }
+            
+            .item {
+        float: none;
+        width: 95%;
+        text-align: center;
+                padding-top: 5%;
+        padding-right: 2%;
+                padding-left: 2%;
+                padding-bottom: 5%;
+    }
+            
+            .textos-bloque3 h2 {
+       
+        width: 100%;
+                text-align: center;
+        
+    }
+            
+            .item-bloque4 {
+        float: none;
+        width: 95%;
+        text-align: center;
+    }
+            
+             .premios {
+        display: none;
+    }
+            
+      
+    
+            
+            .medios {
+        width: 95%;
+        float: none;
+               padding-top: 7%;
+                padding-bottom: 7%;
+        
+    }
+            
+            .flota {
+        float: none;
+            display: block;
+                margin: auto;
+                margin-bottom: 10px;
+    }
+            
+            
+}
